@@ -1,4 +1,4 @@
 {"sites":[
-  {"name": "Pencil", "url":"http://students.washington.edu/ericma00/info343/a2-html-css-ericma000/", "description": "ay!!"},
-  {"name": "Mass Shootings",  "url":"http://students.washington.edu/ericma00/info343/a3-mapping-ericma000/", "description": "HERE'S SOME TEXT"}
+  {"name": "Pencil", "url":"http://students.washington.edu/ericma00/info343/a2-html-css-ericma000/", "description": "Pencil is a page that has informative information about pencils. It uses basic HTML and CSS to make the page look the way it does"},
+  {"name": "Mass Shootings",  "url":"http://students.washington.edu/ericma00/info343/a3-mapping-ericma000/", "description": "Mass Shooting is a website that takes in a data of shootings that happened throughout the US. Those data are then plotted on a map; user can find more information about each data point by clicking on the point"}
 ]}

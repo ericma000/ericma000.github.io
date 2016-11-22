@@ -2,7 +2,7 @@
 import React from 'react';
 
 // PageOne Component
-var PageTwo = React.createClass({
+var Resume = React.createClass({
 	// Render a <Quote> element for each element in the state
 	render() {
 		return (
@@ -11,4 +11,4 @@ var PageTwo = React.createClass({
 	}
 });
 
-export default PageTwo;
+export default Resume;

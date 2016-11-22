@@ -1,0 +1,4 @@
+{"sites":[
+  {"name": "鉛筆", "url":"http://students.washington.edu/ericma00/info343/a2-html-css-ericma000/", "description": "鉛筆往是個有很多關於鉛筆料的網頁. 大部分是應用基本HTML和CSS來創作的."},
+  {"name": "槍案",  "url":"http://students.washington.edu/ericma00/info343/a3-mapping-ericma000/", "description": "這個網頁是應用一個美國槍案的data然後把每個槍案放在一個地圖上面. User可以點地圖上的點而得到更詳細的資料"}
+]}

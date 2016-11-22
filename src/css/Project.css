@@ -1,0 +1,14 @@
+.link {
+  text-align: center;
+}
+
+.projectBlock {
+  border: solid black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 0.2rem;
+}
+
+p {
+  padding: 1rem;
+}
