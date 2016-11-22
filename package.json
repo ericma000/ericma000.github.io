@@ -21,5 +21,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage":"students.washington.edu/ericma00/infoere/ericma000.github.io"
+  "homepage":"students.washington.edu/ericma00/info343/ericma000.github.io"
 }
