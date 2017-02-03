@@ -9,8 +9,8 @@ var ProjectPage = React.createClass({
 		return{project: []}
 	},
 	componentDidMount() {
-		$.getJSON('./data/project.json', function(data) {
-			console.log(data.sites);
+		$.getJSON('./data/project1.json', function(data) {
+			console.log(data);
 			this.setState({project: data.sites})
 		}.bind(this))
 	},

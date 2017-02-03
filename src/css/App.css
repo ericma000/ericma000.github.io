@@ -3,18 +3,17 @@
     margin-bottom: 0;
 }
 .navbar {
-    border-bottom:1px solid #d3d3d3;
     width:100%;
     height:50px;
     padding-top:14px;
-    padding-left:20px;
+    padding-left:10px;
 }
 
 a.link {
-    color:black;
+    color:white;
     text-decoration:none;
-    margin-right: 50px;
-    opacity:0.3;
+    margin-right: 3.5rem;;
+    opacity:0.5;
 }
 
 a.link.active {
@@ -23,10 +22,11 @@ a.link.active {
 
 a > i {
     opacity:1;
+    margin-left: 1rem;
 }
 
 .navbar{
-  background-color: #C0C0C0;
+  background-color: #004C99;
 }
 
 .link {
@@ -34,13 +34,6 @@ a > i {
 }
 
 .App {
-  background-image: url('http://bobkim.net/wp-content/uploads/2014/01/UW-Cherry-BlossomWA-1.jpg');
-  background-repeat: none;
-  background-size: cover;
-  background-position: center bottom;
-  padding-bottom: 2rem;
-}
+  /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/83/26/04/832604d8f6feb52e87a8dacc5bcfea79.jpg');*/
 
-.children {
-  background-color: rgba(192,192,192,0.9);
 }

@@ -20,6 +20,7 @@ var Project = React.createClass({
 		if (this.state.language == 0) {
 			return (
 				<div>
+					<h1>HELL</h1>
 					<div className="switchLang">
 							<button type="button" className='btn btn-primary btn-xs' onClick={() => this.changeToCh()}>中文</button>
 					</div>

@@ -20,16 +20,13 @@ var AboutMe = React.createClass({
 							<div className="switchLang">
 									<button type="button" className='btn btn-primary btn-xs' onClick={() => this.changeToCh()}>中文</button>
 							</div>
-							<div>
-								<h5>This page is still under construction! More coming soon!</h5>
-								<div className="container">
-									<h4><span className="info">Name:</span> Chen-Che (Eric) Ma</h4>
-									<h4><span className="info">Age:</span> 21</h4>
-									<h4><span className="info">School:</span> University of Washington</h4>
-									<h4><span className="info">Major:</span> Informatics</h4>
-									<h4><span className="info">languages:</span> English, Chinese, Japanese (basic)</h4>
-								</div>
-							</div>
+							<h1>About Me</h1>
+							<p>
+								Hi, my name is Eric Ma. I am currently a senior at University of Washington studying informatics hoping to
+								specialize in front-end development and User experience. Education is very important to me because I believe
+								that everyone has a right to education. Thus, I hope to create some type of technology that will spread education
+								to various places around the world.
+							</p>
 						</div>
 					);
 		} else {
@@ -38,16 +35,11 @@ var AboutMe = React.createClass({
 						<div className="switchLang">
 							<button type="button" className='btn btn-danger btn-xs' onClick={() => this.changeToEng()}>EN</button>
 						</div>
-						<div>
-							<h5>這個網頁還在創造當中.清稍後在環來看</h5>
-							<div className="container">
-								<h4><span className="info">名子:</span> 馬晨哲</h4>
-								<h4><span className="info">年齡:</span> 21</h4>
-								<h4><span className="info">學校:</span> 華盛頓大學n</h4>
-								<h4><span className="info">系:</span> 資訊科學</h4>
-								<h4><span className="info">語言:</span> 英文,　中文,　日文（基本）</h4>
-							</div>
-						</div>
+						<h1>自我介紹</h1>
+						<p>
+							Hi, 我叫馬晨哲. 現在是大學四年級在美國華盛頓大學讀資訊科學. 教育對我來講很重要因為我覺得每個人一生下就一定有教育的權利. 所以
+							我希望以後可以創作一些教育的科技然後分享給全世界!
+						</p>
 					</div>
 				);
 		}

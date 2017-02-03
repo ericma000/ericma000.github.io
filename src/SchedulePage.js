@@ -3,7 +3,7 @@ import React from 'react';
 import SchedulePic from './SchedulePic';
 // PageOne Component
 var scheduleUrl = [{quarter: 'FALL', url: 'fallSchedule.png' },
- 									 {quarter: 'WINTER', url: 'winterSchedule.png'}
+ 									 {quarter: 'WINTER', url: 'bob.png'}
 								  ];
 
 var SchedulePage = React.createClass({
@@ -22,7 +22,7 @@ var SchedulePage = React.createClass({
 	render() {
 		let selectedUrl = this.state.imageUrl[this.state.currentUrl];
 		return (
-			<div>
+			<div id="scheduleButton">
 				{this.state.imageUrl.map(function(schedule, i) {
 					return(
 						<button key={'key-' + i} type="button" className='btn btn-primary'

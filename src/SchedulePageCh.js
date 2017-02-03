@@ -3,7 +3,7 @@ import React from 'react';
 import SchedulePic from './SchedulePic';
 // PageOne Component
 var scheduleUrl = [{quarter: '秋天', url: 'fallSchedule.png' },
- 									 {quarter: '冬天', url: 'winterSchedule.png'}
+ 									 {quarter: '冬天', url: 'winter17_schedule'}
 								  ];
 
 var SchedulePageCh = React.createClass({

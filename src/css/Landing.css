@@ -7,31 +7,128 @@
 }
 
 #main {
-  width: 1;
+  background-color: rgba(192,192,192, 0.0);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #profilePic {
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   border-radius: 50%;
   padding: 1rem;
 }
 
-h3 {
+#profilePic, #schedule {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1, h2, h4, h5 {
   text-align: center;
-  border-bottom: dotted gray;
+  /*color: #990099;*/
+  color: white;
   font-weight: bold;
+  font-family:
+}
+
+h1 {
+  font-size: 36pt;
+  color: white;
+}
+
+h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  color: white;
+  font-size: 40pt;
+}
+
+h4 {
+  color: white;
+}
+
+
+p {
+  color:white;
+  font-size: 18pt;
+}
+
+#quotes {
+  margin-top: 10rem;
+  text-align: left;
+  font-style: italic;
+}
+
+#quoteLabel {
+  text-align: right;
+  font-style: italic;
 }
 
 #schedule {
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
 
 }
 
+#aboutMe h2 {
+  padding: 0;
+}
+
 .switchLang {
-  padding: 1rem;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+#contact  {
+   text-align: center;
+}
+
+#contact i {
+  color: #004C99;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  #profilePic {
+    width: 13%;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+
+  #schedule {
+    width: 60%;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 50pt;
+  }
+
+  h2, h4 {
+    font-size: 30pt;
+  }
+  h5 {
+    font-size: 20pt;
+  }
+
+  #contact i {
+    color: white;
+    opacity: 0.55;
+    font-size: 25px;
+  }
+
+  #left, #right {
+    width: 45%;
+    display: table-cell;
+    padding: 2rem;
+  }
+
+  #scheduleButton {
+    padding-top: 1rem;
+    text-align: center;
+  }
 }
